@@ -1,0 +1,1218 @@
+
+
+
+/* home */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+}
+
+/* ==== Carousel Section ==== */
+.boopathi {
+  height: 90vh;
+  overflow: hidden;
+}
+
+.boopathi-img {
+  object-fit: cover;
+  height: 90vh;
+  width: 100%;
+  filter: brightness(85%);
+  transition: transform 0.6s ease;
+}
+
+.boopathi-img:hover {
+  transform: scale(1.05);
+}
+
+/* ==== Shop by Cake Section ==== */
+.cake-card {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 10px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  width: 220px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.cake-card img {
+  width: 100%;
+  border-radius: 15px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cake-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.cake-card p {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #403c3c;
+}
+
+/* ==== Product Section ==== */
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: all 0.4s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  border-radius: 15px 15px 0 0;
+  height: 220px;
+  object-fit: cover;
+}
+
+.btn-primary {
+  background-color: #dc3545;
+  border: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #b91c1c;
+}
+
+/* ==== Description Section ==== */
+.con-title p {
+  color: #dc3545;
+}
+
+.iniyan {
+  text-align: justify;
+  line-height: 1.8;
+  color: #403c3c;
+  padding: 15px;
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+/* ==== Image Styling in Description ==== */
+img.rounded {
+  border: 4px solid #fff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.5s ease;
+}
+
+img.rounded:hover {
+  border-radius: 50px;
+  transform: scale(1.03);
+}
+
+
+
+/* product */
+/* ==========================
+   General Styles
+========================== */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff8f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Container */
+.product-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Title */
+.product-container h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #d63384;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* ==========================
+   Product Grid
+========================== */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+/* Product Card */
+.product-card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease;
+  overflow: hidden;
+  text-align: center;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(214, 51, 132, 0.3);
+}
+
+/* Product Image */
+.product-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 3px solid #f7c6d0;
+}
+
+/* Product Info */
+.product-body {
+  padding: 15px;
+}
+
+.product-body h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.product-body p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Button */
+.btn-primary {
+  /* background-color: #d63384; */
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #b42d70;
+}
+
+/* ==========================
+   Cart Section
+========================== */
+h2 {
+  color: #d63384;
+  margin-top: 50px;
+  font-weight: 700;
+}
+
+.list-group {
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.list-group-item {
+  font-size: 1rem;
+  background: #fff;
+  /* border: 1px solid #f0d7e2; */
+}
+
+.list-group-item strong {
+  color: #b42d70;
+}
+
+/* Buttons in Cart */
+.btn-outline-success,
+.btn-outline-warning,
+.btn-outline-danger {
+  border-radius: 50%;
+  font-size: 0.8rem;
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-outline-success:hover {
+  background-color: #198754;
+  color: #fff;
+}
+
+.btn-outline-warning:hover {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+/* ==== Our Speciality Section ==== */
+.special-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background: #fff; */
+  border-radius: 15px;
+  /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); */
+  padding: 25px 10px;
+  transition: all 0.4s ease;
+}
+
+.special-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.special-icon {
+  width: 55px;
+  height: 55px;
+  margin-bottom: 15px;
+  filter: invert(35%) sepia(60%) saturate(800%) hue-rotate(320deg)
+    brightness(90%) contrast(90%);
+}
+
+.special-box p {
+  font-weight: 500;
+  color: #403c3c;
+  margin: 0;
+  font-size: 15px;
+}
+
+/* ==== Newsletter Section ==== */
+.newsletter-section {
+  background-color: #e9e4f8;
+}
+
+.newsletter-text h3 {
+  font-weight: 700;
+  color: #2c2c2c;
+}
+
+.newsletter-text .highlight {
+  color: #e91e63;
+}
+
+.newsletter-text p {
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.email-input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #ccc;
+}
+
+.btn-subscribe {
+  background-color: #2b0946;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 0 4px 4px 0;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-subscribe:hover {
+  background-color: #4a0a85;
+}
+
+.newsletter-img img {
+  max-width: 250px;
+  border-radius: 10px;
+}
+
+
+/* ===== General Styles ===== */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff8f6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Carousel ===== */
+.boopathi-img {
+  height: 80vh;
+  object-fit: cover;
+}
+
+/* ===== Shop By Cake ===== */
+.cake-card {
+  /* background: #fff; */
+  border-radius: 15px;
+  padding: 10px;
+  /* box-shadow: 0 4px 15px rgba(214, 51, 132, 0.1); */
+  transition: transform 0.3s ease;
+}
+
+.cake-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.4s ease;
+}
+
+.cake-card:hover {
+  transform: translateY(-10px);
+}
+
+.cake-card:hover img {
+  transform: scale(1.1);
+}
+
+/* ===== Cake Collection Section ===== */
+.cake-section {
+  text-align: center;
+  background-color: #fff;
+  padding: 60px 20px;
+  border-radius: 20px;
+}
+
+.cake-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.cake-item {
+  position: relative;
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(214, 51, 132, 0.15);
+  transition: all 0.4s ease-in-out;
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.cake-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(214, 51, 132, 0.3);
+}
+
+.cake-item img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.cake-item:hover img {
+  transform: scale(1.1);
+}
+
+.cake-info {
+  padding: 15px;
+}
+
+.cake-info h5 {
+  font-weight: 700;
+  color: #d63384;
+}
+
+.cake-info p {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== Speciality Section ===== */
+.special-box {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(214, 51, 132, 0.1);
+}
+
+.special-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(214, 51, 132, 0.3);
+}
+
+.special-icon {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+/* ===== Newsletter Section ===== */
+.newsletter-section {
+  background-color: #ffe6f0;
+  border-top: 3px solid #d63384;
+}
+
+.highlight {
+  color: #d63384;
+}
+
+.email-input {
+  max-width: 280px;
+  margin-right: 10px;
+}
+
+.btn-subscribe {
+  background-color: #d63384;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-subscribe:hover {
+  background-color: #b42d70;
+}
+
+.newsletter-img img {
+  width: 250px;
+  border-radius: 15px;
+}
+
+.cake-item{height: 400px;
+  border-radius: 0;
+width: 400px;}
+
+/* about *//* ===== About Section Styles ===== */
+.about-container {
+  /* optional: background or padding */
+  padding: 20px 0;
+}
+
+.about-img {
+  border-radius: 10px;
+  max-width: 80%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Typography adjustments */
+.about-container h2 {
+  font-size: 2rem; /* default for desktop */
+}
+
+.about-container p {
+  font-size: 1rem;
+  line-height: 1.6;
+  width: 90%;
+  margin-left: 10px;
+}
+
+/* Button adjustments */
+.about-container .btn {
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+    margin-left: 10px;
+}
+
+/* ===== Responsive for screens 430px and below ===== */
+@media (max-width: 430px) {
+  .about-container h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .about-container p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .about-container .btn {
+    width: 100%;
+    font-size: 0.95rem;
+    padding: 0.5rem 0;
+    margin-top: 15px;
+  }
+
+  .about-img {
+    margin-bottom: 15px;
+    width: 100px;
+  
+  }
+}
+
+.login-container{
+    border: 1px solid rgb(185, 183, 183);
+    height: 350px;
+    width: 500px;
+    margin-left: 29%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 10px 5px rgb(236, 233, 233);
+}
+
+/* footer */
+.con1 h3{
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.con1 p{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.con2 h3{
+    text-transform: uppercase;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.con2 p{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+}
+.con3 h3{
+    text-transform: uppercase;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.con3 p{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.con3 #icon{
+    display: flex;
+}
+
+.con4 h3{
+    text-transform: uppercase;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.con4 p{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media(max-width:768px){
+  
+
+
+/* home */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+}
+
+/* ==== Carousel Section ==== */
+.boopathi {
+  height: 90vh;
+  overflow: hidden;
+}
+
+.boopathi-img {
+  object-fit: cover;
+  height: 90vh;
+  width: 100%;
+  filter: brightness(85%);
+  transition: transform 0.6s ease;
+}
+
+.boopathi-img:hover {
+  transform: scale(1.05);
+}
+
+/* ==== Shop by Cake Section ==== */
+.cake-card {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 10px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  width: 220px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.cake-card img {
+  width: 100%;
+  border-radius: 15px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cake-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.cake-card p {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #403c3c;
+}
+
+/* ==== Product Section ==== */
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: all 0.4s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  border-radius: 15px 15px 0 0;
+  height: 220px;
+  object-fit: cover;
+}
+
+.btn-primary {
+  background-color: #dc3545;
+  border: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #b91c1c;
+}
+
+/* ==== Description Section ==== */
+.con-title p {
+  color: #dc3545;
+}
+
+.iniyan {
+  text-align: justify;
+  line-height: 1.8;
+  color: #403c3c;
+  padding: 15px;
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+/* ==== Image Styling in Description ==== */
+img.rounded {
+  border: 4px solid #fff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.5s ease;
+}
+
+img.rounded:hover {
+  border-radius: 50px;
+  transform: scale(1.03);
+}
+
+
+
+/* product */
+/* ==========================
+   General Styles
+========================== */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff8f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Container */
+.product-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Title */
+.product-container h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #d63384;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* ==========================
+   Product Grid
+========================== */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+/* Product Card */
+.product-card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease;
+  overflow: hidden;
+  text-align: center;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(214, 51, 132, 0.3);
+}
+
+/* Product Image */
+.product-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 3px solid #f7c6d0;
+}
+
+/* Product Info */
+.product-body {
+  padding: 15px;
+}
+
+.product-body h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.product-body p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Button */
+.btn-primary {
+  /* background-color: #d63384; */
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #b42d70;
+}
+
+/* ==========================
+   Cart Section
+========================== */
+h2 {
+  color: #d63384;
+  margin-top: 50px;
+  font-weight: 700;
+}
+
+.list-group {
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.list-group-item {
+  font-size: 1rem;
+  background: #fff;
+  /* border: 1px solid #f0d7e2; */
+}
+
+.list-group-item strong {
+  color: #b42d70;
+}
+
+/* Buttons in Cart */
+.btn-outline-success,
+.btn-outline-warning,
+.btn-outline-danger {
+  border-radius: 50%;
+  font-size: 0.8rem;
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-outline-success:hover {
+  background-color: #198754;
+  color: #fff;
+}
+
+.btn-outline-warning:hover {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+/* ==== Our Speciality Section ==== */
+.special-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background: #fff; */
+  border-radius: 15px;
+  /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); */
+  padding: 25px 10px;
+  transition: all 0.4s ease;
+}
+
+.special-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.special-icon {
+  width: 55px;
+  height: 55px;
+  margin-bottom: 15px;
+  filter: invert(35%) sepia(60%) saturate(800%) hue-rotate(320deg)
+    brightness(90%) contrast(90%);
+}
+
+.special-box p {
+  font-weight: 500;
+  color: #403c3c;
+  margin: 0;
+  font-size: 15px;
+}
+
+/* ==== Newsletter Section ==== */
+.newsletter-section {
+  background-color: #e9e4f8;
+}
+
+.newsletter-text h3 {
+  font-weight: 700;
+  color: #2c2c2c;
+}
+
+.newsletter-text .highlight {
+  color: #e91e63;
+}
+
+.newsletter-text p {
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.email-input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #ccc;
+}
+
+.btn-subscribe {
+  background-color: #2b0946;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 0 4px 4px 0;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-subscribe:hover {
+  background-color: #4a0a85;
+}
+
+.newsletter-img img {
+  max-width: 250px;
+  border-radius: 10px;
+}
+
+
+/* ===== General Styles ===== */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff8f6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Carousel ===== */
+.boopathi-img {
+  height: 80vh;
+  object-fit: cover;
+}
+
+/* ===== Shop By Cake ===== */
+.cake-card {
+  /* background: #fff; */
+  border-radius: 15px;
+  padding: 10px;
+  /* box-shadow: 0 4px 15px rgba(214, 51, 132, 0.1); */
+  transition: transform 0.3s ease;
+}
+
+.cake-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.4s ease;
+}
+
+.cake-card:hover {
+  transform: translateY(-10px);
+}
+
+.cake-card:hover img {
+  transform: scale(1.1);
+}
+
+/* ===== Cake Collection Section ===== */
+.cake-section {
+  text-align: center;
+  background-color: #fff;
+  padding: 60px 20px;
+  border-radius: 20px;
+}
+
+.cake-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.cake-item {
+  position: relative;
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(214, 51, 132, 0.15);
+  transition: all 0.4s ease-in-out;
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.cake-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(214, 51, 132, 0.3);
+}
+
+.cake-item img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.cake-item:hover img {
+  transform: scale(1.1);
+}
+
+.cake-info {
+  padding: 15px;
+}
+
+.cake-info h5 {
+  font-weight: 700;
+  color: #d63384;
+}
+
+.cake-info p {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== Speciality Section ===== */
+.special-box {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(214, 51, 132, 0.1);
+}
+
+.special-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(214, 51, 132, 0.3);
+}
+
+.special-icon {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+/* ===== Newsletter Section ===== */
+.newsletter-section {
+  background-color: #ffe6f0;
+  border-top: 3px solid #d63384;
+}
+
+.highlight {
+  color: #d63384;
+}
+
+.email-input {
+  max-width: 280px;
+  margin-right: 10px;
+}
+
+.btn-subscribe {
+  background-color: #d63384;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-subscribe:hover {
+  background-color: #b42d70;
+}
+
+.newsletter-img img {
+  width: 250px;
+  border-radius: 15px;
+}
+
+.cake-item{height: 400px;
+  border-radius: 0;
+width: 400px;}
+
+/* about */
+.about-container {
+  padding: 50px 0;
+ 
+}
+
+
+.about-img:hover {
+  transform: scale(1.05);
+}
+
+.about-container h2 {
+  font-size: 2rem;
+}
+
+.about-container p {
+  line-height: 1.7;
+  font-size: 1rem;
+
+
+
+}
+
+
+
+/* footer */
+.con1 h3{
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.con1 p{
+    margin-top: 20px;
+    margin-left: 10px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.con2 h3{
+    text-transform: uppercase;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.con2 p{
+    margin-top: 20px;
+    margin-left: 10px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+}
+.con3 h3{
+    text-transform: uppercase;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.con3 p{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.con3 #icon{
+    display: flex;
+}
+
+.con4 h3{
+    text-transform: uppercase;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.con4 p{
+    margin-top: 20px;
+    margin-left: 10px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+}

@@ -1,0 +1,43 @@
+.custom-navbar {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff5f7;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #d63384 !important;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+  color: #b02a6b !important;
+}
+
+.nav-link {
+  color: #444 !important;
+  font-weight: 500;
+  position: relative;
+  margin: 0 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #d63384 !important;
+}
+
+/* 🔥 Hover underline animation */
+.nav-animate::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 50%;
+  bottom: 0;
+  background-color: #d63384;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-animate:hover::after {
+  width: 100%;
+  left: 0;
+}
